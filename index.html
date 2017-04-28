@@ -70,7 +70,7 @@ function redraw() {
 	var force = d3.layout.force()
 		.gravity(.05)
 		.charge(-200)
-		.linkDistance( 60 )
+		.linkDistance( 30 )
 		.size([w, h]);
 	
 	var svg = d3.select(".text").append("svg")
