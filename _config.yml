@@ -9,7 +9,7 @@
 title: Mognar
 description: > # this means to ignore newlines until "baseurl:"
   Data visualisation practice projects, mainly focused around local government and Parliamentary data. 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 twitter_username:@philbgorman
 github_username:mognar
