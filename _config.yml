@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Placeholder wedding site
-email: your-email@domain.com
+title: Mognar
 description: > # this means to ignore newlines until "baseurl:"
-  This will be something awesome soon, I promise! Just hit a few bumps on the way to finishing the site.
+  Data visualisation practice projects, mainly focused around local government and Parliamentary data. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.kpwedding.uk" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+url: # the base hostname & protocol for your site
+twitter_username:@philbgorman
+github_username:mognar
 
 # Build settings
 markdown: kramdown
