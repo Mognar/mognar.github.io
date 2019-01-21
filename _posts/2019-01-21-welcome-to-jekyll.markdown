@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Some data"
+title:  "division data"
 date:   2019-01-21 12:18:21 -0400
 categories: data
 ---
