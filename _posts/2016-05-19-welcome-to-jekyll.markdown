@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Test post, please ignore"
-date:   2016-05-20 08:05:21 -0400
-categories: jekyll update
+layout: page
+title:  "Some data"
+date:   2019-01-21 12:05:21 -0400
+categories: data
 ---
 <table>
 {% for x in site.data.Alldvisiondata %}
