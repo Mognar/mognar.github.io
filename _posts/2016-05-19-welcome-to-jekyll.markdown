@@ -7,7 +7,7 @@ categories: data
 <table>
 {% for x in site.data.Alldvisiondata %}
   <tr>
-   <td>{{ x.Votenumber}}</td>	<td>{{ x.Votetitle}}</td>	<td>{{ x.Ayes}}</td>	<td>{{ x.Noes}}</td>	<td>{{ x.Conservative}}</td>	<td>{{ x.DemocraticUnionistParty}}</td>	<td>{{ x.GreenParty}}</td>	<td>{{ x.Independent}}</td><td>{{ x.Labour}}</td>	<td>{{ x.LabourCoop}}</td>	<td>{{ x.LiberalDemocrat}}</td>	<td>{{ x.PlaidCymru}}</td>	<td>{{ x.ScottishNationalParty}}</td>	<td>{{ x.GrandTotal}}</td>
+   <td>{{ x.Votenumber}}</td>	<td>{{ x.Votetitle}}</td>
 
   <tr>
 {% endfor %}
