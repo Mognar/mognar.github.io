@@ -7,7 +7,7 @@ categories: data
 <table class="divtable">
    <thead>
     {% for column in site.data.Alldvisiondata[0] %}
-        <th>{{ column[0] }}</th>
+        <th class="rotate">{{ column[0] }}</th>
     {% endfor %}
     </thead>
 {% for x in site.data.Alldvisiondata %}
