@@ -7,8 +7,8 @@ categories: data
 <table>
 {% for x in site.data.Alldvisiondata %}
   <tr>
-   <td>{{ x.Votenumber}}</td>	<td>{{ x.Votetitle}}</td>
-
+   <td>{{ x.Votenumber}}</td>	
+    <td>{{ x.Votetitle}}</td>
   <tr>
 {% endfor %}
 </table>
