@@ -5,6 +5,11 @@ date:   2019-01-21 12:18:21 -0400
 categories: data
 ---
 <table>
+   <thead>
+    {% for column in site.data.Alldvisiondata[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </thead>
 {% for x in site.data.Alldvisiondata %}
   <tr>
    <td>{{ x.Votenumber}}</td>	
